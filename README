@@ -8,6 +8,7 @@ more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfil
   auto complete
   bundle/vim-supertab 
 
+--------------
 1 update plugin 
   single plugin updating, change dir to targit plugin dir: git checkout master; git pull
   all plugin updating: git submodule foreach 'git checkout master && git pull'
