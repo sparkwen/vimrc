@@ -1,8 +1,22 @@
-my vim, more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
+my vimrc 
+more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
 1 pathogen, @https://github.com/tpope/vim-pathogen
   plugin manager
   bundle/vim-pathogen
 
-2、supertab, https://github.com/ervandew/supertab
+2 supertab, https://github.com/ervandew/supertab
   auto complete
   bundle/vim-supertab 
+
+1 update plugin 
+  single plugin updating, change dir to targit plugin dir: git checkout master; git pull
+  all plugin updating: git submodule foreach 'git checkout master && git pull'
+
+2 del plugin 
+  rm -rf bundle/plugin
+  git rm -r bundle/plugin
+
+3 init plugin 
+  git submodule add plugin_repository_in_git bundle/plugin_name
+  example aboubt supertabr: git submodule add git@github.com:ervandew/supertab.git bundle/vim_supertab
+
