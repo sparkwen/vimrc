@@ -1,0 +1,8 @@
+my vim, more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
+1 pathogen, @https://github.com/tpope/vim-pathogen
+  plugin manager
+  bundle/vim-pathogen
+
+2、supertab, https://github.com/ervandew/supertab
+  auto complete
+  bundle/vim-supertab 
