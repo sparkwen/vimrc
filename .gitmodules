@@ -10,6 +10,3 @@
 [submodule "bundle/vim_python"]
 	path = bundle/vim_python
 	url = git@github.com:vim-scripts/python.vim--Vasiliev.git
-[submodule "bundle/vim_c"]
-	path = bundle/vim_c
-	url = git@github.com:Rip-Rip/clang_complete.git
