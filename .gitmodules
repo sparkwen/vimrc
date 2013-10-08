@@ -4,3 +4,12 @@
 [submodule "bundle/vim-supertab"]
 	path = bundle/vim-supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/vim_doxygentoolkit"]
+	path = bundle/vim_doxygentoolkit
+	url = git@github.com:vim-scripts/DoxygenToolkit.vim.git
+[submodule "bundle/vim_python"]
+	path = bundle/vim_python
+	url = git@github.com:vim-scripts/python.vim--Vasiliev.git
+[submodule "bundle/vim_c"]
+	path = bundle/vim_c
+	url = git@github.com:Rip-Rip/clang_complete.git
