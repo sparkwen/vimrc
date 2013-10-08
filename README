@@ -1,23 +1,30 @@
 my vimrc 
 more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
-1 pathogen, @https://github.com/tpope/vim-pathogen
-  plugin manager
+1 pathogen, git@github.com:tpope/vim-pathogen.git
+  æ’ä»¶ç®¡ç†
   bundle/vim-pathogen
 
-2 supertab, https://github.com/ervandew/supertab
-  auto complete
+2 supertab, git@github.com:ervandew/supertab.git
+  è‡ªåŠ¨è¡¥å…¨
   bundle/vim-supertab 
 
+3 DoxygenToolkit, git@github.com:vim-scripts/DoxygenToolkit.vim.git
+  è‡ªåŠ¨ç”Ÿæˆæ³¨é‡Š
+  bundle/vim_doxygentoolkit
+
+4  
+
+
 --------------
-1 ¸üĞÂ²å¼ş
-  ¸üĞÂµ¥¸ö²å¼ş: git checkout master; git pull
-  ¸üĞÂËùÓĞ²å¼ş: git submodule foreach 'git checkout master && git pull'
+1 æ›´æ–°æ’ä»¶
+  æ›´æ–°å•ä¸ªæ’ä»¶: git checkout master; git pull
+  æ›´æ–°æ‰€æœ‰æ’ä»¶: git submodule foreach 'git checkout master && git pull'
 
-2 É¾³ı²å¼ş
-  rm -rf bundle/²å¼şÃû
-  git rm -r bundle/²å¼şÃû
+2 åˆ é™¤æ’ä»¶
+  rm -rf bundle/æ’ä»¶å
+  git rm -r bundle/æ’ä»¶å
 
-3 °²×° 
+3 å®‰è£… 
   git submodule add plugin_repository_in_git bundle/plugin_name
-  ÑùÀı¡ª¡ª°²×°supertab: git submodule add git@github.com:ervandew/supertab.git bundle/vim_supertab
+  æ ·ä¾‹â€”â€”å®‰è£…supertab: git submodule add git@github.com:ervandew/supertab.git bundle/vim_supertab
 
