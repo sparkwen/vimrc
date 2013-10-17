@@ -1,5 +1,12 @@
-my vimrc 
-more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles/
+我的vim配置
+
+---使用说明---
+1 下载项目,git clone
+2 更新所有插件, git submodule foreach 'git checkout master && git pull' 
+3 插件说明和git管理请见后文
+
+
+---插件说明---
 1 pathogen, git@github.com:tpope/vim-pathogen.git
   插件管理
   bundle/vim-pathogen
@@ -12,8 +19,15 @@ more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfil
   自动生成注释
   bundle/vim_doxygentoolkit
 
+4 a.vim, 头文件与程序文件跳转
+  自动在头文件与程序文件跳转
+  bundle/vim_a
 
---------------
+5 minibufexpl, vim缓存区
+  vim缓存区
+  bundle/vim_minibufexpl 
+
+---git管理---
 1 更新插件
   更新单个插件: git checkout master; git pull
   更新所有插件: git submodule foreach 'git checkout master && git pull'
@@ -26,3 +40,5 @@ more details @http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfil
   git submodule add plugin_repository_in_git bundle/plugin_name
   样例——安装supertab: git submodule add git@github.com:ervandew/supertab.git bundle/vim_supertab
 
+Ref:
+@http://lostjs.com/2012/02/04/use-pathogen-and-git-to-manage-vimfiles
