@@ -13,6 +13,3 @@
 [submodule "bundle/vim_a"]
 	path = bundle/vim_a
 	url = git@github.com:vim-scripts/a.vim.git
-[submodule "bundle/vim_minibufexpl"]
-	path = bundle/vim_minibufexpl
-	url = git@github.com:fholgado/minibufexpl.vim.git
